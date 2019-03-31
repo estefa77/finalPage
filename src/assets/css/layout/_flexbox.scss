@@ -47,7 +47,7 @@
 		flex: 0 1 30%;
 		margin: 0.5vw;
 		font-family: 'Josefin Slab', serif;
-		padding: 2rem 0;
+		padding: 3rem 0;
 
 		&__examples {
 			position: relative;
@@ -60,6 +60,7 @@
 			display: block;
 			transition: all .2s;
 			outline-offset: .5rem;
+			margin-bottom: 2rem;			
 
 			.imgCard {
 				object-fit: cover;
@@ -76,23 +77,9 @@
 		}
 		h5 {
 			color: #777;
-			margin: 1rem 0 0px 5px;
-			position: relative;
-			padding: 8px;
 			font-size: 2rem;
 			font-weight: 700;
 			text-transform: uppercase;
-
-			&::before {
-				position: absolute;
-				content: "";
-				top: 10px;
-				left: -6px;
-				width: 2px;
-				height: 22px;
-				display: block;
-				background: #df0e62;
-			}
 		}
 		p {
 			font-size: 1em;

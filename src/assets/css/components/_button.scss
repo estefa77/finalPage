@@ -44,10 +44,7 @@
 	&--green {
 		background-image: linear-gradient(to right, $color-tertiary-light, $color-tertiary-dark);
 		color: $color-white; 
-
-		&::after {
-			background-color: $color-white;
-		}
+		margin-top: 2rem;
 	}	
 	&--pink {
 	    background-image: linear-gradient(to right, $color-tertiary-light, $color-tertiary-dark);
